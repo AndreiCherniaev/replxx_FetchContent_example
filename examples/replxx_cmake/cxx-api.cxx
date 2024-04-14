@@ -378,7 +378,7 @@ int main( int argc_, char** argv_ ) {
 	bool ignoreCase( false );
 	std::string keys;
 	std::string prompt;
-	int hintDelay( 0 );
+    int hintDelay( 0 ); // [ms]
 	while ( argc_ > 1 ) {
 		-- argc_;
 		++ argv_;
